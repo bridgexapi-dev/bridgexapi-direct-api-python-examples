@@ -1,8 +1,15 @@
+
 # BridgeXAPI Direct API Python Examples
 
-Direct HTTP workflows for BridgeXAPI messaging infrastructure.
+Programmable routing for messaging infrastructure.
+
+BridgeXAPI exposes the routing layer behind SMS delivery.
+
+These examples show direct HTTP execution without SDK abstraction.
 
 No SDK. No abstraction.
+
+Only route-level execution.
 
 ---
 
@@ -29,7 +36,7 @@ Before sending anything, inspect available routes:
 
 ```bash
 python route-pricing/routes.py
-```
+````
 
 Routes are not universal.
 
@@ -121,5 +128,10 @@ Delivery lookup:
 
 ---
 
-Docs: https://docs.bridgexapi.io
-Main: https://bridgexapi.io
+BridgeXAPI
+
+Programmable routing for messaging infrastructure.
+
+Docs: [https://docs.bridgexapi.io](https://docs.bridgexapi.io)
+Main: [https://bridgexapi.io](https://bridgexapi.io)
+
